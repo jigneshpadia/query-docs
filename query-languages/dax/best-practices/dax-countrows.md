@@ -31,7 +31,7 @@ COUNTROWS(Sales)
 There are three reasons why the second measure definition is better:
 
 - It's more efficient, and so it will perform better.
-- It doesn't consider BLANKs contained in any column of the table.
+- It **also counts** BLANKs contained in any column of the table.
 - The intention of formula is clearer, to the point of being self-describing.
 
 ## Recommendation
